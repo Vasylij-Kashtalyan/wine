@@ -48,6 +48,7 @@
 }
 
 .menu__btn__wine {
+    cursor: pointer;
     border: none;
     padding: 20px 30px;
     font-size: 16px;
@@ -220,8 +221,46 @@
 
 .section__entry{
     margin: auto;
-    max-width: 1110px;
-    border: 3px solid #C4C4C4;
-    padding: 60px 0 60px 0;
+    padding: 130px 0 100px 0;
+    background-color: #282828;
 }
     
+.entry{
+    position: relative;
+    height: 767px;
+    max-width: 1110px;
+    border: 3px solid #C4C4C4;
+    margin: auto;
+}
+
+.entry h2{
+    position: absolute;
+    left: 29%;
+    top: -4%;
+    color: #fff;
+    background-color: #282828;
+
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.grape{
+    position: absolute;
+    top: -9%;
+    left: -3%;
+    width: 260px;
+    height: 260px;
+}
+
+.barrel {
+    position: absolute;
+    top: -10%;
+    right: -6%;
+    width: 260px;
+    height: 200px;
+}
+
